@@ -18,7 +18,7 @@ An end to end system which provides real-time alerts to a nearby hospital and hi
 
 Implemented using:
 - Arduino 
-- GPS, GSM module
+- GPS and GSM module
 - Force and pressure sensor
 
 The detailed project source code can be found here [Project Code] (https://github.com/sand47/Hackathon-Projects-/tree/master/Vehicle%20Collision%20Assistant )
