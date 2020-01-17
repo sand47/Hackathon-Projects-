@@ -10,7 +10,7 @@ Developed a human wearable device for computer gaming and general control of a c
 3) Play simple computer games by clicking on the screen
 4) Moving the cursor on screen like a mouse
 
-The detailed project description can be found here * [Project Report](https://github.com/sand47/Hackathon-Projects-/blob/master/Hand%20Gesture%20Controlled%20Wireless%20Communication/Project%20Report.pdf)
+The detailed project description can be found here  [Project Report](https://github.com/sand47/Hackathon-Projects-/blob/master/Hand%20Gesture%20Controlled%20Wireless%20Communication/Project%20Report.pdf)
 
 ## Vehicle Collision Assistant: 
 
@@ -21,7 +21,7 @@ Implemented using:
 - GPS and GSM module
 - Force and pressure sensor
 
-The detailed project source code can be found here [Project Code] (https://github.com/sand47/Hackathon-Projects-/tree/master/Vehicle%20Collision%20Assistant )
+The detailed project source code can be found here [Project Code](https://github.com/sand47/Hackathon-Projects-/tree/master/Vehicle%20Collision%20Assistant )
 
 ## Smart compare of retails products 
 
@@ -33,4 +33,4 @@ Implemented using:
 - Ajax
 - Raspberry pi 
 
-The detailed project source code can be found here [Project Code] (https://github.com/sand47/Hackathon-Projects-/tree/master/Smart%20Compare)
+The detailed project source code can be found here [Project Code](https://github.com/sand47/Hackathon-Projects-/tree/master/Smart%20Compare)
