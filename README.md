@@ -25,12 +25,11 @@ The detailed project source code can be found here [Project Code](https://github
 
 ## Smart compare of retails products 
 
-A dynamic comparison tool that compares products, observing user actions in a web application. Consider going to a shoe shop, with so many options available user will easily get confused and get distracted by the employee's recommendation to buy old stock or one which does not suit you. Thus, the users can compare two or more products by bringing those shoeboxes to the nearby pods and scanning them using the barcode scanner one by one. Once scanned the user, we get a comparison page and users can easily visualize and buy the product with a single click on the screen. 
+A dynamic comparison tool that compares products, observing user actions in a web application. Consider going to a shoe shop, with so many options available user will easily get confused and get distracted by the employee's recommendation to buy old stock or one which does not suit you. Thus, the users can compare two or more products by bringing those shoeboxes to the nearby pods and scanning them  one by one. Once scanned the user, we get a comparison page and users can easily visualize and buy the product with a single click on the screen. 
 
 Implemented using:
-- Node.js
-- Python 
-- Ajax
-- Raspberry pi 
+- Python Flask
+- Raspberry pi
+- IR sensors
 
 The detailed project source code can be found here [Project Code](https://github.com/sand47/Hackathon-Projects-/tree/master/Smart%20Compare)
