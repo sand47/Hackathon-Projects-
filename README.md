@@ -16,6 +16,11 @@ The detailed project description can be found here [Project Report](https://gith
 
 An end to end system which provides real-time alerts to a nearby hospital and highway patrol when accidents are detected in a vehicle. A real-time embedded system with many sensors is placed on a safe inner lock inside the bike which uses the force sensor, pressure sensor, GPS module, and GSM module to alert the nearby hospital with location and a send an SMS to family members with a detailed report containing the GPS coordinates and type of accident. Once the end-user receives the SMS, the mobile app reads the SMS and give the red pin spot of the accident on the google map. The mobile application contains additional features such as highway patrol, nearby hospital location and user reviews on road safety, etc. 
 
+Implemented using:
+- Arduino 
+- GPS, GSM module
+- Force and pressure sensor
+
 The detailed project source code can be found here [Project Code] (https://github.com/sand47/Hackathon-Projects-/tree/master/Vehicle%20Collision%20Assistant )
 
 ## Smart compare of retails products 
