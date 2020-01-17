@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <script src= "{{url_for('static', filename='script/jquery-1.11.3.min.js')}}"> </script>
+      <title>{{ title }}</title>
+	  
+	<style>	
+	body {  
+	background: url("{{ url_for('static', filename='background/hom.jpg')}}");
+    background-size: 100%;
+    background-repeat: no-repeat;   	         
+   }
+   </style>
+	  
+   </head>
+   <script type=text/javascript>
+   
+   $(
+    // periodically (500ms) do an ajax request to get the button state
+    // modify the span tag to reflect the state (pressed or not)
+    // the state text comes from the JSON string returned by the server
+    function sensor() 
+    {
+        $.getJSON('/sensor', function(data)
+            {
+				if (data.sensorState == "nike"){
+					loadPage ("nike");
+				}else if (data.sensorState == "puma"){
+					loadPage ("puma");
+				}else if (data.sensorState == "compare"){
+					loadPage ("compare");
+				}
+					
+                setTimeout(function(){sensor();},500);
+            });
+    }
+	
+    );
+   
+   function loadPage (choice){
+		var url = choice;
+		var approot = "http://10.0.107:80/";
+		var location = approot.concat(url);				
+        window.location= (location);
+	}
+	
+   </script>
+
+</html>
